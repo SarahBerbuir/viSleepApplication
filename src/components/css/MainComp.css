@@ -1,0 +1,216 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    
+}
+.mainComp{
+    
+    margin-top: 120px;
+}
+#headlineTrends{
+    color: #666666;
+    font-size: 150%;
+    text-align: center;
+    margin-left:105px
+}
+p{
+    text-align: center;
+    color: #666666;
+}
+#mytooltip p{
+    text-align: left;
+}
+
+#infovis{
+    width: 25px;
+    margin-left: 10px;
+    filter: invert(40%) sepia(0%) saturate(1691%) hue-rotate(195deg) brightness(98%) contrast(90%);
+
+}
+#infovis:hover{
+    filter: invert(55%) sepia(95%) saturate(645%) hue-rotate(168deg) brightness(90%) contrast(88%);
+}
+#questionvis{
+    width: 60px;
+    margin-left: 10px;
+    /*filter: invert(40%) sepia(0%) saturate(1691%) hue-rotate(195deg) brightness(98%) contrast(90%);*/
+    /*https://codepen.io/sosuke/pen/Pjoqqp*/
+    filter: invert(55%) sepia(95%) saturate(645%) hue-rotate(168deg) brightness(90%) contrast(88%);
+    float:right;
+    margin-right: 50px;
+}
+#questionvis:hover{
+    filter: invert(55%) sepia(95%) saturate(645%) hue-rotate(168deg) brightness(90%) contrast(88%);
+}
+
+.tabList{
+    width: 40px
+}
+
+h3{
+    /*color:#34A5DA;*/
+}
+#popoverbody p{
+    /*color: rgb(62, 182, 238)*/ /* #666666*/
+    text-align: left;
+}
+#generalModeM{
+    color: #3EB6EE
+}
+#activityMode{
+    color: #666666
+}
+#recoveryMode{
+    color: #666666
+}
+#sleepMode{
+    color: #666666
+}
+.TabMode{
+    display:inline-flex
+}
+
+#question0{
+    width:  5000px
+}
+#youSure{
+    background-color: lightgreen;
+}
+#questionSections{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 99%;
+}
+
+#questionSections>div{
+    background-color: #8bc8e8;/*#3ba4d9;*/
+    height: 335px;
+    color: white; 
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+   /* opacity: 60%;
+    /*overflow-y:autob3b3b6*/
+}
+#svgArrow0, #svgArrow1,#svgArrow2,#svgArrow3,#svgArrow4{
+    
+}
+#zeroQuestionDiv, #fifthQuestionDiv{
+    width: 6%
+}
+#firstQuestionDiv, #secondQuestionDiv, #thirdQuestionDiv, #fourthQuestionDiv{
+    width: 19%;
+
+}
+#zeroQuestionDiv, #firstQuestionDiv, #secondQuestionDiv, #thirdQuestionDiv, #fourthQuestionDiv, #fifthQuestionDiv, #sixthQuestionDiv{
+    border-left: solid #818186;
+    border-top: solid #818186;
+    border-bottom: solid #818186;
+    
+}
+
+#fifthQuestionDiv{
+    border: solid #818186;
+    
+}
+#firstQuestionDiv{
+    color: white
+}
+
+#questionSections p{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+#qustion0, #question1, #question2, #question3, #question4, #question5, #question6{
+    background-color:rgb(138, 43, 226)  /*#8A2BE2*/
+}
+#firstIsClosed, #secondIsClosed, #thirdIsClosed, #fourthIsClosed, #fifthIsClosed, #sixthIsClosed, #seventhIsClosed{
+    text-align: center;
+}
+#taskDiv0 p, #taskDiv1 p, #taskDiv2 p, #taskDiv3 p, #taskDiv4 p, #taskDiv5 p, #taskDiv6 p, #taskDiv7 p{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+#taskDiv1, #taskDiv2,#taskDiv3,#taskDiv4,#taskDiv5{
+    display: inline-flex;
+}
+
+#taskDivButtonfirst,  #taskDivButtonsecond, #taskDivButtonthird, #taskDivButtonfourth, #taskDivButtonfifth, #taskDivButtonsixth, #taskDivButtonseventh {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin-left: 120px;
+    background-color: blueviolet;
+    float: right;
+    opacity: 0%;
+    height: 24px;
+    font-size: 14px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+#taskDivButtonfifth{
+    margin-right: 7px;
+}
+#taskHeadline{
+    color:blue
+}
+#arrowTriangle, #svgLine{
+    filter: invert(96%) sepia(2%) saturate(735%) hue-rotate(202deg) brightness(86%) contrast(83%);
+}
+#svgLine{
+}
+#arrowStudyItem0, #arrowStudyItem1, #arrowStudyItem2, #arrowStudyItem3, #arrowStudyItem4, #arrowStudyItem5, #arrowStudyItem6, #arrowStudyItem7 {
+    filter:  invert(81%) sepia(7%) saturate(2082%) hue-rotate(167deg) brightness(93%) contrast(95%)
+    /*filter: invert(55%) sepia(95%) saturate(645%) hue-rotate(168deg) brightness(90%) contrast(88%);
+    filter: invert(96%) sepia(2%) saturate(735%) hue-rotate(202deg) brightness(86%) contrast(83%);*/
+    
+}
+#arrowStudyItemStroke0, #arrowStudyItemStroke1,#arrowStudyItemStroke2,#arrowStudyItemStroke3,#arrowStudyItemStroke4,#arrowStudyItemStroke5,#arrowStudyItemStroke6{
+    stroke: #818186;
+    stroke-width: 3px;
+}
+#svgArrowLong0, #svgArrowLong1, #svgArrowLong2, #svgArrowLong3, #svgArrowLong4, #svgArrowLong5, #svgArrowLong6{
+    opacity: 0;
+}
+#arrowStudyItemLong0, #arrowStudyItemLong1, #arrowStudyItemLong2,#arrowStudyItemLong3,#arrowStudyItemLong4,#arrowStudyItemLong5,#arrowStudyItemLong6{
+    filter: invert(55%) sepia(95%) saturate(645%) hue-rotate(168deg) brightness(90%) contrast(88%);
+
+}
+#arrowStudyItemStrokeLong0, #arrowStudyItemStrokeLong1, #arrowStudyItemStrokeLong2, #arrowStudyItemStrokeLong3, #arrowStudyItemStrokeLong4, #arrowStudyItemStrokeLong5, #arrowStudyItemStrokeLong6{
+    stroke: rgb(138, 43, 226);
+    stroke-width: 3px;
+
+}
+#mytooltip  {
+    max-width: 65%;
+    background-color: blueviolet;
+  }
+  #trendDescription{
+      color: rgb(138, 43, 226) /*rgb(194, 32, 32) /*rgb(138, 43, 226)*/
+  }
+  #textInfoStudy p{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+
+}
+#questionsH{
+    font-weight: bold;
+
+}
+#initialQ{
+    width: 475px;
+
+}
+#checkzero, #checkfirst, #checksecond, #checkthird, #checkfourth, #checkfifth {
+    width:29px;
+    filter: invert(35%) sepia(86%) saturate(7280%) hue-rotate(267deg) brightness(91%) contrast(94%);
+    float: right;
+    opacity: 0%;
+}
+#checkzero, #checkfifth{
+    margin-right: 30px;
+}

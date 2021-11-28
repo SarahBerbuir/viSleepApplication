@@ -1,0 +1,507 @@
+
+.column-1{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 300px; 
+}
+.column-1Sleep{
+    display: inline-flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.column-2 {
+    float: left;
+    width: 57%;
+    padding-left:10px;
+    /* padding: 10px;
+    height: 300px; 
+    Should be removed. Only for demonstration */
+  }
+.column-2Sleep{
+    float: left;
+    width: 83%;
+    padding-left:0px;
+    margin-bottom: 30px;
+}
+.column-3 {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    
+     /* Should be removed. Only for demonstration */
+  }
+.column-3Sleep{
+    /*float: right;*/
+    display: inline-flex;
+    width: 17%;
+    padding-left: 10px;    
+}
+.row{
+    /*display: inline-block*/
+}
+#controlCard{
+    width: 100%
+}
+   /* Clear floats after the columns */
+/*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*
+  
+.row{
+    /*background-color: rgb(238, 248, 248);*/
+    /*height:800px;
+    width: 100%
+}
+
+#labelSVG{
+    background-color: rgba(62, 182, 238, 0.164);
+    height:400px;
+    width:250px
+}
+
+#labelDescription{
+    background-color:white;
+    margin-left:30px;
+    width: 30%;
+    height: 100%;
+}
+
+#actualValues p{
+    padding: 3px;
+}*/
+h5{
+    color: #666666;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.dropdownDiv{
+    margin-top: 5px; 
+    /*padding: 10px; */
+    border-radius: 5px; 
+    /*border-style: groove; */
+    width: 300px;
+    color:#666666;
+    /*box-shadow: 2px 2px 5px 1px rgba(13, 3, 71, 0.3);*/
+    
+}
+
+.dropdownDiv h1, #labelDescriptionAvgRadius h1, #labelDescriptionColor h1, #labelDescriptionAxis h1, #averageDescription h1{
+    color:#666666;
+    font-size: 18px;
+    font-weight:bolder; 
+    
+}
+/*.dropdownDiv::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: var(--select-arrow);
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  }*/
+.select-wrapper {
+    width: 200px;
+}
+
+/*.AxisButton{
+    position: relative;
+    background-color: rgb(62, 182, 238); #046daa
+    border: none;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+    border-radius: 3px; 
+    -webkit-transition-duration: 0.4s; Safari 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.AxisButton:after {
+    content: "";
+    background: white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    }
+.AxisButton:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    -moz-padding-start: calc(10px - 3px);
+    padding-left: 10px;
+    color: rgb(43, 139, 184);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8px;
+    box-shadow: 2px 2px 5px 1px rgba(13, 3, 71, 0.3);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+select::-ms-expand {
+    display: none;
+}
+select option {
+    color: white;
+    text-decoration: none;
+}
+select:focus::-ms-value {
+    background-color: transparent;
+}*/
+#timeChoice, #xAxisChoice, #radiusChoice, #yAxisChoice, #yAxisChoiceRec{
+    position: relative;
+    background-color: #34A5DA;
+    border-width: 0px;
+    width: 190px;
+    height: 35px;
+}
+#item{
+    display: inline-block;
+    color: #666666;
+}
+
+#labelDescriptionColor, #labelDescriptionAvgRadius, #labelDescriptionAxis{
+    display: inline-block;
+    height: 250px;
+    margin-left: 75px; /* for activity mode 20*/
+    margin-right: 20px;
+}
+
+.longNames{
+    font-size: 10px;
+}
+
+#labelDescriptionColor, #labelDescriptionAxis, #labelDescriptionAvgRadius, #labelDescriptionAvgRadiusRec{
+    width: 500px/* for activity mode 420*/
+}
+
+
+#labelDescriptionColor p, #labelDescriptionAvgRadius p, #labelDescriptionAxis p, #labelDescriptionAvgRadiusRec p{
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: left;
+    font-size:  15px;
+
+}
+
+
+#labelDescriptionColor div, #labelDescriptionAvgRadius div, #labelDescriptionAxis div, #labelDescriptionAvgRadiusRec div{
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px
+    
+}
+.yAxisItem, .radiusItem, .colorItem, .xAxisItem{
+    width:250px;
+    font-size: 15px;
+    color: #666666
+}
+/*default values for controls*/
+#colorReadiness, #yAxisLRH, #radiusHRV{
+    background-color: #34a5daa6;
+    color: white
+}
+
+.rectSVG{
+    fill: #34A5DA;
+    
+}
+.rectT{
+    fill: white; 
+    font-size: 14px;
+}
+.rectTAct{
+}
+#dateValue{
+        font-size: 15px;
+}
+
+#labelSVG{
+}
+#svG{
+}
+#badge4, #badge5, #badge6, #badge7, #badgeTime {
+    float:right
+}
+#badge5{
+    background-color: #666666; /*cc8400*/
+}
+#badge6{
+    background-color: #a19f9f; /*cc8400*/
+}
+#badge4{
+    background-color: #3d3d3d; /*cc8400*/
+}
+#badgeTime{
+    background-color: #202020; /*cc8400*/
+}
+#labelDescription svg{
+    display: inline-block;
+}
+#labelDescription p{
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: left;
+    font-size:  15px;
+}
+#labelDescription div{
+    padding: 0px;
+}
+#radiusDiv, #axisDiv, #colorLegendDiv{
+    margin-left: 10px;
+}
+#colorLegendDiv div{
+    margin-top:5px
+}
+#colorDescription{
+    float:left
+}
+.labelDescriptionP{
+    text-align: left;
+    color: #666666;
+    font-size: 17px
+}
+#radiusDiv, #axisDiv{
+    float:left
+}
+#radiusSVGGen, #radiusSVGRec, #radiusSVGAct{
+    margin-top: 10px
+}
+#radiusDescriptionDiv{
+    margin-left: 0px;
+   
+}
+#radiusDescriptionDiv div{
+    margin-bottom: 0px;
+    
+}
+
+#radiusDescriptionDiv p {
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    display: inline-block;
+    
+}
+#radiusDescriptionDiv h1{
+    margin-left:10px
+}
+#topAverage{
+    margin-top: 20px
+}
+#colLeft{
+    border-right:solid #66666628 0.01em;
+}
+#colRight h1{
+    padding-left: 20px;
+}
+#colorLegendLabelDiv h5{
+    display: inline-block;
+    
+}
+
+#linePlotRec{
+    color: white
+}
+
+#controlDescription, #colorLegendDescription{
+    text-align: left;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#xAxisAvgValGen, #yAxisAvgValGen, #xAxisAvgValRec, #yAxisAvgValRec{
+    margin-left: 59px;
+    
+}
+#yAxisAvgDiv, #xAxisAvgDiv{
+    margin-top: 6px
+}
+#HoverBox{
+    color: white
+}
+#arrowDescriptionImg{
+    width:25px
+}
+#arrowExplanationDivUp,  #arrowExplanationDivDown{
+    display:  inline-flex
+}
+#periodModeSwitchDiv{
+    display:inline-flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#arrowDescriptionDownRec{
+    float: right;
+    padding-left: 10px;
+}
+#arrowDescriptionUpRec{
+    padding-left: 10px;
+
+}
+#arrowExplanationDivUp{
+    margin-top: 10px;
+
+}
+#arrowExplanationDivDown{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#colorLegendHoverGroup{
+    font-size: 13px;
+    color:#666666
+}
+.rectT5{
+    background-color: white;
+}
+/* Activity Table*/
+#ListGroup{
+    width: 100%
+}
+#axisDescriptionDiv h1, #axisDescriptionDiv p {
+    padding-left: 20px;
+}
+#oneActivity{
+    background-color:rgba(211, 211, 211, 0.418);
+    display: inline-flex;
+    width: 300px;
+    margin-top: 10px;
+}
+#SportBorder, #MoodBorder, #FoodBorder{
+    margin:0px;
+    height:45px;
+    width: 100%
+}
+#SportBorder{
+    border-left:solid teal 3px;
+}
+#MoodBorder{
+    border-left:solid olive 3px;
+}
+#FoodBorder{
+    border-left:solid palevioletred 3px;
+}
+    
+#ActDescr{
+padding-left: 22px
+}
+#closeButton{
+    margin-top: 12px;
+    margin-right: 5px;
+    float: right
+}
+#Sport{
+    background-color: teal;
+}
+#Mood{
+    background-color: olive;
+}
+#Food{
+    background-color: palevioletred;
+}
+#badgeRow{
+    float: left;
+    margin-top: 15px
+}
+#rowAct{
+    
+}
+#activityAccordion{
+    margin-bottom: 25px;
+    width: 320px;
+    display: inline-flex;
+    
+}
+#activityAccordionHeader{
+    width: 320px
+}
+.g-2{
+    width:320px;
+    
+    font-size: 13px;
+}
+#datePicker{font-size: 10px;}
+/*
+#activityDiv{
+    height:200px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    
+  }*/
+ 
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+  }
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+  
+svg .rect {
+    fill: gold;
+    stroke: steelblue;
+    stroke-width: 5px;
+  }
+#ControlAccordion{
+    width: 250px;
+}
+
+.bold{
+    font-weight: bold;
+}
+#card{
+    /*flex-direction: row*/
+}
+#radiusValGenVal,#colorValGenVal, #xAxisValGenVal, #yAxisValGenVal, #radiusValActVal,#colorValActVal, #xAxisValActVal, #yAxisValActVal, #radiusValRecVal, #colorValRecVal, #yAxisValRecVal, #xAxisValSleepVal, #yAxisValSleepVal, #radiusValSleepVal  {
+    width: 200px;
+}
+
+#bigScreenSwitch{
+    margin-left: 30px;
+}

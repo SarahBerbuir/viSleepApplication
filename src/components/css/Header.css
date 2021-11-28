@@ -1,0 +1,68 @@
+.navbar{
+    background-color: rgb(90, 187, 231);
+   
+}
+#headerContainer{
+    margin-left: 70px
+}
+#logoNav{
+    width: 120px;
+    
+    cursor:not-allowed
+}
+#search{
+    width: 20px;
+}
+#searchInput{
+    background-color: #66666613;
+    color: white;
+    font-size: 12px;
+    width: 70px;
+    border-color: white;
+    border: 1px solid white;
+
+    border-radius: 4px;
+}
+#searchInput::placeholder{
+    color: white
+}
+.navLinks{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.Navs{
+    margin-left: 110px;
+}
+#navLogIn, #navHome{
+    color:white;
+    cursor:not-allowed
+}
+#navTrends{
+    color:white;
+    cursor:not-allowed;
+    border-bottom: 3px solid white;
+
+}
+#trendsOverlay{
+    height:50px;
+    font-weight: bold;
+}
+#headerContainer{
+    margin-top: 10px
+}
+#svgTrends{
+    position: relative;
+}
+#navInformations{
+    color:white
+}
+#navStudy{
+    color:white
+}
+#navHome{
+    color:white
+}
+#navSearch{
+    cursor:not-allowed
+}
+
