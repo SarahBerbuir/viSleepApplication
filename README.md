@@ -1,7 +1,8 @@
 
 
 # viSleepApplication
-Source code to my bachelor thesis "Towards an intuitive visualization of activity, movement, and sleep data.", on which I received a 1.0 from Prof. Doc. Bry.
+<img src="https://user-images.githubusercontent.com/83503396/187771031-efcab7f0-fdbf-4cef-9b70-2791c39649d4.png" width="80">
+Web application of my bachelor thesis "Towards an intuitive visualization of activity, movement, and sleep data.", on which I received a 1.0 from Prof. Doc. Bry.
 
 For the implementation the JavaScript, d3.js and React were utilized.
 
